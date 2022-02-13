@@ -1,0 +1,544 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/* Start Header Section */
+
+.header {
+    height: 50px;
+    /* overflow: hidden; */
+    position: relative;
+    margin-top: 16px;
+}
+
+.header .logo img {
+    float: left;
+    width: 114px;
+}
+
+.header .navbar {
+    float: right;
+}
+
+.header .navbar ul li {
+    float: right;
+    margin-left: 24px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.header .navbar ul li:first-child {
+    background-color: #ffcc01;
+    width: 129px;
+    height: 32px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: -3px;
+    text-align: center;
+    padding: 5px;
+}
+
+.small-nav {
+    width: 100%;
+    position: absolute;
+    top: -106%;
+    left: 50%;
+    transform: translate(-50%, 23%);
+    text-align: center;
+    margin-top: 5px;
+    z-index: 10000;
+    background-color: #1f373d;
+    color: white;
+    border-radius: 0px 0px 5px 5px;
+    -webkit-border-radius: 0px 0px 5px 5px;
+    -moz-border-radius: 0px 0px 5px 5px;
+    -ms-border-radius: 0px 0px 5px 5px;
+    -o-border-radius: 0px 0px 5px 5px;
+}
+
+.small-nav {
+    display: none;
+}
+
+.small-nav a:hover {
+    color: rgb(148, 148, 148);
+    font-size: 15px;
+}
+
+.icon {
+    position: absolute;
+    left: 88%;
+    top: 10%;
+    display: none;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.icon span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #000;
+    margin-top: 5px;
+}
+
+@media(max-width:1000px) {
+    .icon {
+        display: block;
+    }
+    .header .navbar {
+        display: none;
+    }
+}
+
+
+/* End Header Section */
+
+
+/* Start Landing Section */
+
+.landing {
+    background-image: url("../images/apart1.jpg");
+    background-size: cover;
+    margin-top: -75px;
+    height: 413px;
+}
+
+.content h1 {
+    width: 400px;
+    font-weight: 700;
+    margin-top: 100px;
+    position: relative;
+    top: 150px;
+}
+
+.content span:not(.search) {
+    font-size: 15px;
+    float: right;
+    margin-top: 81px;
+    background-color: #ffcc01;
+    width: 240px;
+    height: 45px;
+    padding: 9px;
+    text-align: center;
+    font-weight: 600;
+    position: relative;
+    top: 150px;
+}
+
+.content input {
+    border: 1px solid #fdfafa;
+    width: 290px;
+    height: 40px;
+    position: relative;
+    top: 150px;
+}
+
+@media(max-width:520px) {
+    .location {
+        display: none;
+    }
+}
+
+.search {
+    background-color: #ffcc01;
+    padding: 11px;
+    position: relative;
+    top: 150px;
+}
+
+
+/* End Landing Section */
+
+
+/* start State Section */
+
+.state {
+    margin-top: 50px;
+}
+
+#number {
+    content: 1;
+}
+
+.state h1 {
+    width: 330px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.state p {
+    font-size: 13px;
+}
+
+.cards .col-md-6 {
+    background-color: rgb(224, 224, 224);
+    width: -22px;
+    height: 176px;
+    text-align: center;
+    padding: 27px;
+    border: 27px solid #fff;
+    color: #ffcc01;
+    font-weight: bold;
+    font-size: 33px;
+}
+
+.cards .col-md-6 h4 {
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+}
+
+
+/* End State Section */
+
+
+/* Start Store Section */
+
+.store .card .image {
+    height: 300px;
+    background-color: #b1d7e8;
+}
+
+.store img {
+    width: 100%;
+    height: 100%;
+}
+
+.store .card .description {
+    height: 100px;
+}
+
+.main-store-head {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.store .card h1 {
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 6px;
+}
+
+.store .card h4 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffcc01;
+    margin-top: 24px;
+    margin-left: 13px;
+}
+
+.store .card h6 {
+    font-size: 13px;
+    margin-top: 24px;
+}
+
+.card {
+    margin-bottom: 25px;
+    box-shadow: 0 0px 2.1px -52px rgba(0, 0, 0, 0.298), 0 0px 5.3px -52px rgba(0, 0, 0, 0.439), 0 0px 10.8px -52px rgba(0, 0, 0, 0.553), 0 0px 22.3px -52px rgba(0, 0, 0, 0.686), 0 0px 61px -52px rgba(0, 0, 0, 1);
+}
+
+.search-store input {
+    border: 1px solid #fff;
+    height: 35px;
+    width: 230px;
+}
+
+.search-store .search {
+    background-color: #ffcc01;
+    padding: 9px;
+    position: relative;
+    top: -1px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.search-store span:not(.search) {
+    margin-left: 150px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+/* End Store Section */
+
+
+/* Start Work Section */
+
+.work .card {
+    height: 350px;
+    overflow: hidden;
+}
+
+.work h1 {
+    font-weight: bold;
+}
+
+.work p {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 2.1em;
+}
+
+.work .card h1 {
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: -36px;
+    margin-left: -15px;
+    margin-bottom: 37px;
+}
+
+.work p {
+    width: 400px;
+}
+
+.work h4 {
+    font-size: 18px;
+    margin-left: 31px;
+    font-weight: bold;
+    color: #1f373d;
+}
+
+.work h6 {
+    font-size: 13px;
+    margin-left: 56px;
+    width: 195px;
+    line-height: 44px;
+}
+
+.work span {
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 56px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #000;
+    width: 96px;
+}
+
+.work .col-md-4:first-child .card {
+    background-color: #ffcc01;
+    color: white;
+    border-bottom: 1px solid #fff;
+}
+
+.work .col-md-4:first-child .card span {
+    border-bottom: 1px solid #fff;
+}
+
+.work .col-md-4:first-child .card h4 {
+    color: #fff;
+}
+
+
+/* End Work Section */
+
+
+/* Start Services Section */
+
+.image-aside {
+    background-image: url("../images/street.jpg");
+    background-size: cover;
+    border-right: 50px solid #fff;
+}
+
+.services h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #1f373d;
+}
+
+.services h6 {
+    font-size: 13px;
+    line-height: 2.0em;
+    margin-bottom: 26px;
+}
+
+.services h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #1f373d;
+}
+
+.services p {
+    font-size: 13px;
+    color: #1f373d;
+    line-height: 2.0em;
+}
+
+
+/* End Services Section */
+
+
+/* Start Agents Section */
+
+.agents .card .image {
+    height: 300px;
+    background-color: #cdccce;
+}
+
+.agents .card .description {
+    height: 100px;
+}
+
+.main-store-head {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.agents .card h1 {
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 6px;
+}
+
+.agents .card h4 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffcc01;
+    margin-top: 24px;
+    margin-left: 13px;
+}
+
+.agents .card h6 {
+    font-size: 13px;
+    margin-top: 24px;
+}
+
+.card {
+    margin-bottom: 25px;
+    box-shadow: 0 0px 2.1px -52px rgba(0, 0, 0, 0.298), 0 0px 5.3px -52px rgba(0, 0, 0, 0.439), 0 0px 10.8px -52px rgba(0, 0, 0, 0.553), 0 0px 22.3px -52px rgba(0, 0, 0, 0.686), 0 0px 61px -52px rgba(0, 0, 0, 1);
+}
+
+.agents h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #1f373d;
+}
+
+.agents p {
+    font-size: 13px;
+    color: #1f373d;
+    width: 300px;
+    line-height: 1.6em;
+}
+
+.agents img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* End Agents Section */
+
+
+/* Start Add Section */
+
+.add span {
+    position: relative;
+    top: 96%;
+    left: 24%;
+    background-color: #ffcc01;
+    text-align: center;
+    padding: 16px;
+    padding-right: 44px;
+    padding-left: 44px;
+}
+
+.add .image {
+    background-color: #b1d7e8;
+}
+
+.add .col-md-6 {
+    margin-bottom: 80px;
+}
+
+.add h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #1f373d;
+}
+
+.add p {
+    font-size: 13px;
+    color: #1f373d;
+    line-height: 2.0em;
+    padding: 14px;
+}
+
+
+/* End Add Section */
+
+
+/* Start Footer Section */
+
+.footer {
+    background-color: #1f373d;
+    color: #fff;
+}
+
+.footer h1 {
+    font-weight: bold;
+}
+
+.footer input {
+    margin-top: 44px;
+    margin-left: 15px;
+    width: 300px;
+    height: 51px;
+}
+
+.footer input::placeholder {
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+.footer h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.footer h3 {
+    font-size: 13px;
+    color: #919eb1;
+}
+
+.footer p {
+    margin-top: 24px;
+    font-size: 14px;
+}
+
+.footer hr {
+    background-color: #cdccce;
+}
+
+
+/* End Footer Section */
