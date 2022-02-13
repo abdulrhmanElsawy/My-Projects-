@@ -1,0 +1,362 @@
+    body {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-family: 'Ubuntu', sans-serif;
+        min-height: 1000px;
+        background-image: url("../gifs/Space2.gif");
+        background-size: cover;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    li {
+        list-style-type: none;
+    }
+    /* Start Trial Secgtion */
+    
+    .Trial {
+        background-image: url("../photos/Star\ Wars\ The\ Last\ JediCover.jfif");
+        background-size: cover;
+        height: 800px;
+        width: 1248px;
+        animation-name: Trial;
+        animation-duration: 4s;
+    }
+    
+    @keyframes Trial {
+        50% {
+            background-image: url("../gifs/Star\ Wars\ The\ Last\ JediTrial1.gif");
+            background-size: cover;
+        }
+        100% {
+            background-image: url("../gifs/Star\ Wars\ The\ Last\ JediTrial2.gif.crdownload");
+            background-size: cover;
+        }
+    }
+    /* End Trial Section */
+    /* Start Nav Bar Section */
+    
+    .nav-bar {
+        background-image: url("../gifs/Space2.gif");
+        background-size: cover;
+        margin-top: -100px;
+        height: 50px;
+        border: 1px solid rgb(255, 255, 255);
+        box-shadow: 0px 1px 5px 2px rgb(255, 255, 255);
+        border-top: 0;
+        position: sticky;
+        top: 0;
+        z-index: 100000;
+    }
+    
+    .logo {
+        float: left;
+        margin-left: 40px;
+        margin-top: 7px;
+    }
+    
+    .list ul li {
+        float: right;
+        margin-right: 60px;
+        text-decoration: none;
+        list-style-type: none;
+        color: rgb(175, 175, 175);
+        margin-top: 10px;
+        font-weight: bolder;
+        font-size: 18px;
+    }
+    
+    .list ul li:hover {
+        background-color: rgba(0, 0, 0, 0.822);
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        padding: 3px 3px;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+    }
+    /* End Navbar Sectio */
+    /* Start Top Movies & Serises Section */
+    
+    #main {
+        padding-top: 80px;
+    }
+    
+    .showcase-box {
+        width: 430px;
+        height: 250px;
+        box-shadow: 5px 15px 30px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        margin: 0px 20px 10px 20px;
+        overflow: hidden;
+        border: 2px solid rgb(255, 255, 255);
+    }
+    
+    .showcase-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .showcase-heading {
+        padding-left: 30px;
+        margin-left: 50px;
+        font-weight: 800;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-size: 2rem;
+        color: #000000;
+        background-image: url(../Gifs/Fog.gif);
+        width: 200px;
+        border-radius: 15px;
+    }
+    /* Start  Ads  Section*/
+    
+    hr {
+        border-color: white;
+    }
+    /* Start Movies Section */
+    
+    #latest {
+        border-top: 1px solid rgba(53, 53, 53, 0.1);
+    }
+    
+    .latest-heading {
+        margin: 30px 30px 0px 50px;
+        font-weight: 800;
+        font-size: 2rem;
+        color: #000000;
+    }
+    
+    .latest-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+        margin: 20px 10px;
+        border-radius: 10px;
+        overflow: hidden;
+        width: 200px;
+        background-color: #ffffffe1;
+        border: 1px solid rgb(255, 255, 255);
+    }
+    
+    .latest-b-img {
+        width: 100%;
+        height: 270px;
+    }
+    
+    .latest-b-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .latest-b-text strong {
+        color: #000000;
+        margin: 0px;
+    }
+    
+    .latest-b-text {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px;
+    }
+    
+    .latest-b-text p {
+        color: #000000;
+        margin: 0px;
+    }
+    
+    .FilmDescription {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.61);
+        position: relative;
+        top: -289px;
+        left: 0px;
+        text-align: center;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        opacity: 0;
+    }
+    
+    .FilmDescription:hover {
+        opacity: 1;
+        transition: 0.7s;
+        -webkit-transition: 0.7s;
+        -moz-transition: 0.7s;
+        -ms-transition: 0.7s;
+        -o-transition: 0.7s;
+    }
+    /* Start Serieses Section  */
+    
+    .series-heading {
+        margin: 30px 30px 0px 50px;
+        font-weight: 800;
+        font-size: 2rem;
+        color: #000000;
+        position: absolute;
+        top: 2153px;
+        left: 9px;
+    }
+    
+    .movies-heading h2 {
+        font-weight: 400;
+        margin: 0px;
+        padding: 1px 20px;
+        background-color: rgba(0, 0, 0, 0.01);
+        border: 1px solid rgba(0, 0, 0, 0.06);
+        font-size: 1.7rem;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        width: 100%;
+        background-color: #463d3d;
+    }
+    
+    .movies-heading {
+        display: flex;
+        margin: 0px 2%;
+        background-color: #463d3d;
+    }
+    
+    .movies-box {
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+        margin: 20px;
+        border-radius: 5px;
+        overflow: hidden;
+        border-top: 3px solid #292929;
+        background-color: rgba(245, 245, 245, 0.801);
+        border: 2px solid rgb(255, 255, 255);
+    }
+    
+    .movies-img {
+        width: 100%;
+        height: 400px;
+        position: relative;
+    }
+    
+    .movies-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .movies-box a {
+        text-align: center;
+        display: block;
+        font-weight: 600;
+        display: -webkit-box;
+        max-width: 80%;
+        -webkit-line-clamp: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: #3a3a3a;
+        margin: 20px;
+    }
+    
+    .movies-box:hover {
+        transform: translateY(-10px);
+        transition: all ease 0.2s;
+        box-shadow: 0px 8px 14px 5px rgb(255, 255, 255);
+    }
+    
+    #movies-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .quality {
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #1f1f1f;
+        color: #ffffff;
+        padding: 5px 20px;
+        font-weight: 500;
+        border-radius: 0px 0px 10px 10px;
+        box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.4);
+    }
+    /* End Serieses Section */
+    /* Start Search Bar  */
+    
+    .search {
+        width: 100%;
+        position: absolute;
+        display: flex;
+        top: 191px;
+        left: -776px;
+    }
+    
+    .search:hover {
+        top: 191px;
+        left: -439px;
+        transition: 1s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+    }
+    
+    .searchTerm {
+        width: 100%;
+        border: 3px solid #000000;
+        border-right: none;
+        padding: 5px;
+        height: 20px;
+        border-radius: 5px 0 0 5px;
+        outline: none;
+        color: #9DBFAF;
+    }
+    
+    .searchTerm:focus {
+        color: #050505;
+    }
+    
+    .searchButton {
+        width: 40px;
+        height: 36px;
+        border: 1px solid #ffffff;
+        background: #000000;
+        box-shadow: 2px 2px 3px 1px rgb(255, 255, 255);
+        text-align: center;
+        color: rgb(46, 46, 46);
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    /*Resize the wrap to see the search bar change!*/
+    
+    .wrap {
+        width: 30%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+    }
+    /* End Search Bar */

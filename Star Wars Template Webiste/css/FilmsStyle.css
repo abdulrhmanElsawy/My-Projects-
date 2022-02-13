@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    background-color: rgb(31, 31, 31);
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+h1::first-letter {
+    color: red;
+}
+
+h2 {
+    position: absolute;
+    top: 16px;
+    left: 493px;
+    font-size: 30px;
+}
+
+.Film {
+    position: absolute;
+    top: 100px;
+    left: 273px;
+}
+
+.Description {
+    position: absolute;
+    top: 523px;
+    left: 464px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid rgba(51, 51, 51, 0.384);
+}
+
+table td {
+    padding: 30px;
+    background-color: rgba(83, 83, 83, 0.555);
+}
+
+.soliderpng {
+    position: absolute;
+    top: 530px;
+    left: 339px;
+}
