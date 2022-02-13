@@ -1,0 +1,511 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    background-color: #292c34;
+}
+
+a {
+    text-decoration: none;
+    color: #c4c5c7;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/* Start Nav Bar */
+
+.landing {
+    height: 550px;
+    background-image: url("../images/pexels-aleksandar-pasaric-2603464\ \(1\).jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+}
+
+nav ul li {
+    float: right;
+    margin-right: 50px;
+}
+
+nav img {
+    width: 113px;
+    position: absolute;
+    top: 7px;
+}
+
+.landing .text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    max-width: 500px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    color: #c4c5c7;
+}
+
+.more-info {
+    position: absolute;
+    top: 81%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #28ea89;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+}
+
+.more-info img {
+    position: relative;
+    width: 33px;
+    margin-top: 3px;
+}
+
+
+/* End Nav Bar */
+
+
+/* Start Services Section */
+
+.services {
+    position: relative;
+    width: 100%;
+    top: 80px;
+    text-align: center;
+}
+
+.services img {
+    color: #29df86;
+}
+
+.services h1 {
+    color: #c4c5c7;
+    font-size: 15px;
+}
+
+.services p {
+    color: #28ea89;
+    font-size: 11px;
+}
+
+.services .card-1,
+.services .card-2,
+.services .card-3 {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.col-sm-4 {
+    padding: 0;
+}
+
+.services .card-1 {
+    background-color: #345363;
+}
+
+.services .card-2 {
+    background-color: #2a2d3c;
+}
+
+.services .card-3 {
+    background-color: #555f5e;
+}
+
+
+/* End Services Section */
+
+
+/* start About Section */
+
+.About {
+    position: relative;
+    width: 100%;
+    top: 70px;
+}
+
+.About .col-sm-6 {
+    padding: 0;
+}
+
+.About .card-1 {
+    background-color: #fff;
+    color: #919b9f;
+}
+
+.About .card-1,
+.About .card-2 {
+    padding-bottom: 80px;
+}
+
+.About .card-1 h1 {
+    font-size: 15px;
+    width: 220px;
+    position: relative;
+    top: 28px;
+    left: 152px;
+}
+
+.About .card-1 p {
+    font-size: 12px;
+    position: relative;
+    left: 228px;
+    top: 26px;
+}
+
+.About img {
+    position: relative;
+    top: 44px;
+    left: 196px;
+    width: 15px;
+    background-color: #28ea89;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.learnMore {
+    position: relative;
+    position: relative;
+    top: 35px;
+    left: 162px;
+    background-color: #29df86;
+    border-color: #29DF85;
+}
+
+.About .card-2 {
+    background-color: #292c34;
+    height: 339px;
+    top: 9px;
+    position: relative;
+    background-image: url("../images/pexels-vlada-karpovich-4050287.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* End About Section */
+
+
+/* Start video Section */
+
+.video {
+    min-height: 300px;
+    background-color: #2a2d3c;
+    position: relative;
+    top: 70px;
+    background-image: url("../images/pexels-pixabay-316093.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.video .content {
+    position: relative;
+    left: 50%;
+    top: 45%;
+    text-align: center;
+    max-width: 500px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, 55%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    color: #c4c5c7;
+}
+
+.video .PlayBtn {
+    background-color: #29df86;
+    border-color: #29df86;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+/* End Video Section */
+
+
+/* Start news Section */
+
+.news {
+    min-height: 700px;
+    background-color: #29df86;
+    position: relative;
+    top: 50px;
+}
+
+@media (max-width:776px) {
+    .news {
+        min-height: 1000px;
+    }
+}
+
+.news h1 {
+    font-size: 25px;
+    text-align: center;
+    color: #2a2d3c;
+}
+
+.news h3 {
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+.news .row {
+    position: relative;
+    top: 60px;
+}
+
+.news .image {
+    height: 150px;
+    background-image: url("../images/pexels-pixabay-277319.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.news .text {
+    height: 240px;
+    background-color: #fff;
+}
+
+.news .text h2 {
+    font-size: 20px;
+    color: #2a2d3c;
+    padding: 16px 16px 10px 47px;
+}
+
+.news .text p {
+    padding-left: 21px;
+    color: #777777;
+}
+
+.readMore {
+    position: relative;
+    top: -50px;
+    left: 19px;
+    background-color: #2a2d3c;
+    border-color: #2a2d3c;
+    color: #28ea89;
+}
+
+.plusbtn {
+    position: absolute;
+    left: 50%;
+    top: 83%;
+    text-align: center;
+    max-width: 500px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, 55%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    color: #c4c5c7;
+}
+
+
+/* End News Section */
+
+
+/* Start Add SECTION */
+
+.add {
+    height: 330px;
+    background-image: url("../images/pexels-markus-spiske-3970330.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 50px;
+}
+
+.add h1 {
+    text-align: center;
+    color: #c4c5c7;
+    font-size: 25px;
+}
+
+.add p {
+    text-align: center;
+    color: #c4c5c7;
+    font-size: 15px
+}
+
+.add .cardd-1 {
+    position: relative;
+}
+
+.add .cardd-2 {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    top: 46%;
+    left: 0%;
+}
+
+.add .cardd-2 .col-sm-6 {
+    top: 25%;
+}
+
+.add .startProject {
+    color: #fff;
+    background-color: #28ea89;
+    border-color: #28ea89;
+}
+
+.add .Read-More {
+    color: #29df86;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+
+/* End add Section */
+
+
+/* Start Contact Section */
+
+.contact {
+    height: 270px;
+    background-color: #fff;
+    position: relative;
+    top: 50px;
+}
+
+.contact .secondLogo {
+    position: relative;
+    top: 49px;
+    left: 63px;
+    width: 164px;
+    height: 69px;
+}
+
+.contact p {
+    position: relative;
+    top: 41%;
+    left: 23%;
+    width: 306px;
+    font-size: 12px;
+}
+
+.contact ul {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 65px;
+    left: 94px;
+    width: 0px;
+}
+
+.contact ul li img {
+    width: 20px;
+    margin-left: 17px;
+}
+
+.contact h4 {
+    font-size: 12px;
+}
+
+.contact h4:first-child {
+    margin-top: 20px;
+}
+
+.contact-info {
+    position: relative;
+    overflow: hidden;
+    top: 53%;
+    left: 42%;
+    width: 121px;
+    text-align: center;
+    ;
+}
+
+
+/* End Contact Section */
+
+
+/* Start Footer Section */
+
+.footer {
+    height: 100px;
+    background-color: #292c34;
+    position: relative;
+    top: 50px;
+}
+
+.footer span:first-child {
+    padding-top: 11px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    margin-left: 8%;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.footer span:nth-child(2) {
+    display: inline-block;
+    color: #28ea89;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 42%;
+    margin-top: 10px;
+}
+
+@media (max-width:776px) {
+    .footer span:first-child {
+        font-size: 12px;
+        color: #fff;
+        text-align: center;
+    }
+    .footer span:nth-child(2) {
+        color: #28ea89;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+
+/* End Footer Section */
+
+
+/* Start Customized Scroll bar  */
+
+ ::-webkit-scrollbar {
+    width: 10px;
+    background: #fff;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #28ea89;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+
+/* End Customized Scroll Bar *
