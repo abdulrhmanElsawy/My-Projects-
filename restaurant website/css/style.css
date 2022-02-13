@@ -1,0 +1,422 @@
+/* Start Global Style */
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* End Global Style */
+
+
+/* Start Navbar Section */
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.486);
+    border: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.navbar ul li {
+    font-size: 13px;
+    color: #fff;
+    margin-left: 21px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.navbar img {
+    width: 67px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+
+/* End Navbar Section */
+
+
+/* Start Landing Section */
+
+.landing {
+    background-image: url("../images/foodLanding.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #151515;
+}
+
+.landing h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    margin-top: 200px;
+}
+
+.landing h3 {
+    /* padding: 50px; */
+    /* padding-right: 418px; */
+    /* padding-left: 409px; */
+    width: 28%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.landing .btn {
+    background-color: #151d25;
+    border: none;
+    border-radius: 0;
+    width: 145px;
+    margin-bottom: 200px;
+}
+
+
+/* End Landing Page */
+
+
+/* Start Story Section */
+
+.story {
+    position: absolute;
+    z-index: 10;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    background-color: #fff;
+    height: 300px;
+}
+
+.story .row .image {
+    background-image: url("../images/food1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.story .row div:last-child {
+    padding: 25px;
+}
+
+.story h1 {
+    font-family: 'Lobster', cursive;
+}
+
+.story .btn {
+    background-color: #151d25;
+    border: none;
+    border-radius: 0;
+    width: 145px;
+    margin-top: 15px;
+}
+
+
+/* End Story Section */
+
+
+/* Start Flower Section */
+
+.flower {
+    margin-top: 100px;
+    text-align: center;
+    height: 300px;
+    background-image: url("../images/flowers.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.flower h1 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-top: 150px;
+}
+
+.flower h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+/* End Flower Section */
+
+
+/* Start Menu Section */
+
+.menu {
+    text-align: center;
+}
+
+.menu h1:first-of-type {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.menu h1 {
+    font-family: 'Lobster', cursive;
+}
+
+.menu .row div {
+    padding: 0;
+}
+
+.image1 {
+    width: 100%;
+    height: 250px;
+    background-image: url("../images/1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image2 {
+    width: 100%;
+    height: 250px;
+    background-image: url("../images/2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image3 {
+    width: 100%;
+    height: 250px;
+    background-image: url("../images/3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image4 {
+    width: 100%;
+    height: 250px;
+    background-image: url("../images/4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image5 {
+    width: 100%;
+    height: 250px;
+    background-image: url("../images/5.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image6 {
+    width: 100%;
+    height: 250px;
+    background-image: url("../images/6.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text {
+    background-color: #9fb0a5;
+    height: 250px;
+}
+
+.more {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.buttonMore {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: #fff;
+    background-color: #151d25;
+    border: none;
+    height: 40px;
+    width: 40px;
+}
+
+
+/* End Menu Section */
+
+
+/* Start Video Section */
+
+.video {
+    margin-top: 50px;
+    width: 100%;
+    background-image: url("../images/video.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h3 {
+    margin-top: 100px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.container .buttonVideo {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: #151d25;
+    background-color: #eee;
+    border: none;
+    height: 40px;
+    width: 40px;
+}
+
+
+/* End Video Section */
+
+
+/* Start Email Section */
+
+.email {
+    margin-top: 50px;
+    text-align: center;
+    color: #151d25;
+}
+
+.email h1 {
+    font-family: 'Lobster', cursive;
+    color: #151d25;
+}
+
+.email h3 {
+    color: #151d25;
+    margin-top: -10px;
+    font-size: 20px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.email input {
+    width: 250px;
+    height: 40px;
+    margin-left: 4%;
+}
+
+.email span {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    /* margin-top: -163px; */
+    position: relative;
+    left: -1px;
+    top: 1px;
+    padding: 11px;
+}
+
+.email .row {
+    margin-top: 50px;
+}
+
+.email img {
+    width: 100%;
+    height: 100%;
+}
+
+.email .row div {
+    height: 250px;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* End Email Section */
+
+
+/* Start Footer Section */
+
+.footer {
+    background-color: #27364a;
+    color: #fff;
+}
+
+.copy {
+    background-color: #151d25;
+    width: 100%;
+    color: #fff;
+}
+
+.copy .row {
+    width: 90%;
+}
+
+.copy .row div {
+    width: 45%;
+}
+
+.copy .row div:first-child {
+    margin-left: 61px;
+    font-size: 12px;
+    color: #c7c6c6;
+    padding: 4px;
+}
+
+.copy .row div:last-child {
+    padding: 4px;
+}
+
+.copy .row div:last-child i {
+    float: right;
+    margin-right: 5px;
+}
+
+.footer .container {
+    text-align: left;
+}
+
+.footer .container h1 {
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+}
+
+.footer .container h2 {
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+
+
+/* End Footer Section */
