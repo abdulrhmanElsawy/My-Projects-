@@ -1,0 +1,132 @@
+/* Start Form */
+
+body {
+    background: rgb(10 25 47);
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: -3px;
+    color: #757575;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+.contact-form .form-group {
+    margin-bottom: 0;
+    position: relative;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 5px;
+    background-color: #0d1117;
+    border-color: #49b6a8;
+}
+
+.contact-form .asterisx {
+    float: right;
+    height: 0;
+    font-size: 22px;
+    color: #b90d0d;
+    position: absolute;
+    right: 8px;
+    top: 6px;
+}
+
+.contact-form textarea {
+    height: 180px !important;
+}
+
+.contact-form i {
+    height: 0;
+    float: left;
+    position: relative;
+    top: -29px;
+    left: 7px;
+    color: #999;
+}
+
+.contact-form input {
+    padding-left: 30px;
+}
+
+.contact-form .send-icon {
+    height: 0;
+    display: block;
+    color: #fff;
+    position: relative;
+    top: -29px;
+    left: 180px;
+    float: none;
+    height: 14px;
+}
+
+.contact-form .Custom-alert {
+    padding: 5px 10px;
+    display: none;
+}
+
+
+/* End Form */
+
+
+/* start members page */
+
+h1 {
+    font-size: 55px;
+    margin: 40px 0;
+    font-weight: bold;
+    color: #666;
+}
+
+.show-pass {
+    position: absolute;
+    top: 6px;
+    right: -30px;
+}
+
+.manage-members img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.main-table {
+    -webkit-box-shadow: 0px 3px 10px #ccc;
+    -moz-box-shadow: 0px 3px 10px #ccc;
+    box-shadow: 0px 3px 10px #ccc;
+}
+
+.main-table td {
+    background-color: #fff;
+    vertical-align: middle !important;
+}
+
+.main-table .btn {
+    padding: 3px 10px;
+}
+
+.main-table tr:first-child td {
+    background-color: #333;
+    color: #fff;
+}
+
+.activate {
+    margin-left: 5px;
+}
+
+
+/* end members page */
+
+
+/* Scroll Bar  */

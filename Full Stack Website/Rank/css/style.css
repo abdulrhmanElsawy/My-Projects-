@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0a192f;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* Start nav bar section */
+
+.logo-container {
+    height: 50px;
+    background-color: #172a46;
+}
+
+.logo-container .pioneer {
+    font-weight: bold;
+    color: #d3d3d3;
+}
+
+
+/* End navbar section */
+
+
+/* Start Header Section */
+
+.header {
+    margin-top: 15px;
+    color: rgb(146, 146, 146);
+}
+
+.header .col-sm-4 {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-top: 5px;
+}
+
+.header h4 {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.header span {
+    font-size: 15px;
+}
+
+.header span:last-child {
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #cac4c4;
+    cursor: pointer;
+    color: #000;
+}
+
+.header span:first-child {
+    background-color: #172a46;
+    padding: 5px;
+    border: 1px solid #172a46;
+    color: #79fff8;
+    cursor: pointer;
+}
+
+
+/* End Header Section */
+
+
+/* Start Rank Section */
+
+.first-rank {
+    margin-top: 80px;
+    color: #fff;
+}
+
+.first-rank .card {
+    text-align: center;
+}
+
+.first-rank img:not(.padge) {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.first {
+    background-color: #0a192f;
+    color: aqua;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 4px;
+}
+
+.first-rank .card span:not(.first) {
+    background-color: #172a46;
+    margin: -1px;
+    padding: 11px;
+    padding-right: 14%;
+    padding-left: 13%;
+    border: 1px solid #0a192f;
+}
+
+.first-rank .card {
+    background-color: #172a46;
+    padding-top: 60px;
+    padding-bottom: 9px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.padge {
+    position: absolute;
+    width: 46px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    top: 32%;
+    left: 55%;
+}
+
+
+/* End Rank Section */
+
+
+/* start data section */
+
+.data {
+    color: rgb(146, 146, 146);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    text-align: center;
+    position: relative;
+}
+
+.data .container .row .col-sm-12 span:first-child {
+    position: relative;
+    left: 0%;
+}
+
+.data .container .row .col-sm-12 span:nth-child(2),
+.data .container .row .col-sm-12 span:nth-child(3),
+.data .container .row .col-sm-12 span:nth-child(4) {
+    margin-right: 5%;
+    position: relative;
+    right: -28%;
+}
+
+
+/* End Data section */
+
+
+/* Start Last Rank Section */
+
+.last-rank .container {
+    color: white;
+    background-color: #172a46;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.last-rank .container .row .col-sm-12 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+/* End Last Rank Section */
+
+.last-week {
+    display: none;
+}
+
+@media (max-width:500px) {
+    .data .container .row .col-sm-12 span:nth-child(2),
+    .data .container .row .col-sm-12 span:nth-child(3),
+    .data .container .row .col-sm-12 span:nth-child(4) {
+        margin-right: 5%;
+        position: relative;
+        right: -19%;
+    }
+}
