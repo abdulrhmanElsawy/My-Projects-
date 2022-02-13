@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d3d1ae;
+    font-family: Tahoma, Arial;
+}
+
+.container {
+    background-color: #1a283f;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 250px);
+    z-index: -2;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.triangle {
+    position: absolute;
+    width: 553px;
+    height: 398px;
+    top: -50px;
+    left: -27px;
+}
+
+.full {
+    position: absolute;
+    width: 553px;
+    height: 398px;
+    top: -50px;
+    left: -27px;
+}
+
+.mountaine {
+    position: absolute;
+    width: 553px;
+    height: 398px;
+    top: -50px;
+    left: -27px;
+}
+
+.sun {
+    position: absolute;
+    width: 553px;
+    height: 398px;
+    top: -50px;
+    left: -27px;
+    z-index: 10;
+}
+
+.arc {
+    position: absolute;
+    width: 553px;
+    height: 398px;
+    top: -50px;
+    left: -27px;
+}
+
+.circle {
+    background-color: rgba(250, 250, 250, 0.1);
+    width: 119px;
+    height: 119px;
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    top: 58px;
+    left: 129px;
+    z-index: -1;
+    display: none;
+}
+
+
+/* End */
+
+
+/* Start Text Section */
+
+.container .text .header {
+    position: relative;
+    width: 100%;
+    margin: 5px auto;
+    z-index: 20;
+}
+
+.container .text .header p {
+    float: right;
+    color: white;
+    font-size: 10px;
+    margin-right: 13px;
+    margin-top: 11px;
+    z-index: 20;
+}
+
+.container .text .header .logo {
+    font-family: 'Style Script', cursive;
+    font-size: 16px;
+    float: left;
+    margin-left: 34px;
+    color: #fff;
+    margin-top: 9px;
+    z-index: 20;
+}
+
+.container .text .footer {
+    position: absolute;
+    top: 61%;
+    left: 37%;
+    z-index: 20;
+}
+
+.container .text .footer h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.container .text .footer h3 {
+    font-size: 11px;
+    text-align: center;
+    color: white;
+    margin-top: -10px;
+    font-weight: 100;
+}
+
+.container.stary {
+    background-image: url(../photos/monophy.gif);
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 250px);
+    z-index: -2;
+}

@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Tahoma, Arial;
+    background-color: #eee;
+}
+
+.right-container {
+    position: absolute;
+    background-color: #fff;
+    width: 527px;
+    height: 526px;
+    top: calc(50% - 255px);
+    left: calc(50% - 83px);
+    border-radius: 0px 5px 5px 0;
+    -webkit-border-radius: 0px 5px 5px 0;
+    -moz-border-radius: 0px 5px 5px 0;
+    -ms-border-radius: 0px 5px 5px 0;
+    -o-border-radius: 0px 5px 5px 0;
+}
+
+.right-container form {
+    position: relative;
+    top: -25px;
+}
+
+.labels {
+    position: absolute;
+    float: left;
+    top: 114px;
+    left: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.labels label {
+    margin-bottom: 25px;
+    color: #818587;
+    position: relative;
+    top: -30px;
+}
+
+.inputs {
+    position: absolute;
+    float: right;
+    top: 114px;
+    left: 234px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inputs input {
+    margin-bottom: 1px;
+    outline: none;
+    border: 1px solid #818587;
+    height: 42px;
+    width: 246px;
+    position: relative;
+    top: -46px;
+    text-align: left;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+.inputs input:last-child {
+    position: absolute;
+    top: 337px;
+    left: -47px;
+    width: 139px;
+    height: 38px;
+    outline: none;
+    border: none;
+    background-color: #95eb75;
+    color: #Ffff;
+    text-align: center;
+}
+
+.inputs input::placeholder {
+    color: #8185878f;
+    text-align-last: left;
+    left: 15px;
+    position: relative;
+}
+
+
+/* End Of Right Container */
+
+
+/* Start The Left Container */
+
+.left-container {
+    position: absolute;
+    background-color: #33d1fd;
+    width: 300px;
+    height: 526px;
+    top: calc(50% - 255px);
+    left: calc(50% - 383px);
+    border-radius: 5px 0px 0px 5px;
+    -webkit-border-radius: 5px 0px 0px 5px;
+    -moz-border-radius: 5px 0px 0px 5px;
+    -ms-border-radius: 5px 0px 0px 5px;
+    -o-border-radius: 5px 0px 0px 5px;
+}
+
+.left-container .images {
+    position: relative;
+}
+
+.left-container .images .green {
+    position: absolute;
+    top: 236px;
+    left: 47px;
+}
+
+.left-container .images .moon {
+    position: absolute;
+    top: 109px;
+    left: 60px;
+    animation-name: MoovingMoon;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.left-container .images .orange {
+    position: absolute;
+    top: 180px;
+    left: 77px;
+    animation-name: MoovingOrange;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 1.6s;
+}
+
+.left-container .images .orange2 {
+    position: absolute;
+    top: 243px;
+    left: 231px;
+    animation-name: MoovingOrange2;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
+
+.left-container .images .orange3 {
+    position: absolute;
+    top: 270px;
+    left: 0px;
+    animation-name: MoovingOrange3;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 1.5s;
+}
+
+@keyframes MoovingMoon {
+    from {
+        top: 109px;
+    }
+    to {
+        top: 90px;
+    }
+}
+
+@keyframes MoovingOrange {
+    from {
+        top: 180px;
+    }
+    to {
+        top: 165px;
+    }
+}
+
+@keyframes MoovingOrange2 {
+    from {
+        top: 243px;
+    }
+    to {
+        top: 230px;
+    }
+}
+
+@keyframes MoovingOrange3 {
+    from {
+        top: 270px;
+    }
+    to {
+        top: 255px;
+    }
+}
