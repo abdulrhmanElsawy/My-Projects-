@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Start Container */
+
+.container {
+    margin: 100px auto;
+    background-color: #36e6fd;
+    height: 400px;
+    width: 600px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    position: relative;
+}
+
+.container .inner {
+    position: absolute;
+    top: calc(50% - 132px);
+    left: calc(50% - 5px);
+    background-color: #fff;
+    height: 263px;
+    width: 274px;
+    border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    -ms-border-radius: 0 5px 5px 0;
+    -o-border-radius: 0 5px 5px 0;
+}
+
+.container .inner .form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 41px;
+}
+
+.container .inner .form input {
+    margin: 21px 46px 5px 46px;
+}
+
+.container .inner .form input:first-child,
+.container .inner .form input:nth-child(2) {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #5264709a;
+    text-transform: capitalize;
+}
+
+.container .inner .form input:nth-child(3) {
+    border: none;
+    outline: none;
+    background-color: #526470;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    color: #fff;
+    height: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 186px;
+    position: absolute;
+    top: 142px;
+    left: -4px;
+    cursor: pointer;
+}
+
+.text {
+    position: absolute;
+    top: calc(100% - 34px);
+    left: 46px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+}
+
+.text:first-child {
+    float: left;
+    cursor: pointer;
+}
+
+.text span {
+    height: 11px;
+    width: 1px;
+    background-color: #526470;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.text:last-child {
+    float: right;
+    cursor: pointer;
+}
+
+
+/* End Container */
+
+
+/* Start inner Two */
+
+.inner2 {
+    position: absolute;
+    top: calc(50% - 132px);
+    left: calc(50% - 271px);
+    background-color: #526470;
+    height: 263px;
+    width: 266px;
+    border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 5px 0px 0px 5px;
+    -moz-border-radius: 0 5px 5px 0;
+    -ms-border-radius: 0 5px 5px 0;
+    -o-border-radius: 0 5px 5px 0;
+}
+
+.circle {
+    position: absolute;
+    top: 227px;
+    left: 65px;
+    height: 6px;
+    width: 114px;
+    background-color: #272f35a8;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    animation-name: movingShadow;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.inner2 img {
+    position: absolute;
+    width: 219px;
+    height: 157px;
+    top: 64px;
+    left: 16px;
+    animation-name: movingCircle;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes movingCircle {
+    from {
+        top: 64px;
+    }
+    to {
+        top: 50px;
+    }
+}
+
+@keyframes movingShadow {
+    from {
+        width: 114px;
+        left: 65px;
+    }
+    to {
+        width: 90px;
+        left: 80px;
+    }
+}
+
+
+/* End inner Two */
+
+
+/* start button Effects */
+
+.loginEffect {
+    background-color: #ececec13;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    color: #fff;
+    height: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 0;
+    position: absolute;
+    top: 163px;
+    left: 42px;
+}
+
+
+/* End Buttons Effects */
