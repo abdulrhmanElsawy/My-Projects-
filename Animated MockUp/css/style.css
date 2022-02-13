@@ -1,0 +1,304 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: #c2c2c2;
+    transform: translate(30%, 15%);
+    -webkit-transform: translate(30%, 15%);
+    -moz-transform: translate(30%, 15%);
+    -ms-transform: translate(30%, 15%);
+    -o-transform: translate(30%, 15%);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    position: relative;
+}
+
+.container img:first-child {
+    position: absolute;
+    top: 50px;
+    left: 137px;
+    width: 233px;
+    height: 194px;
+}
+
+.container img:nth-child(2) {
+    position: absolute;
+    top: 121px;
+    left: 31px;
+    width: 187px;
+    height: 128px;
+    z-index: 1;
+    transform: rotate( -25deg);
+    -webkit-transform: rotate( -25deg);
+    -moz-transform: rotate( -25deg);
+    -ms-transform: rotate( -25deg);
+    -o-transform: rotate( -25deg);
+}
+
+.container img:nth-child(3) {
+    position: absolute;
+    top: 92px;
+    left: 285px;
+    width: 200px;
+    height: 160px;
+    z-index: 1;
+}
+
+.container img:nth-child(4) {
+    position: absolute;
+    top: 195px;
+    left: 196px;
+    width: 71px;
+    height: 59px;
+    animation-name: MovingMouse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.container img:nth-child(5) {
+    position: absolute;
+    top: 191px;
+    left: 252px;
+    width: 150px;
+    height: 113px;
+    transform: rotate( 23deg);
+    -webkit-transform: rotate( 23deg);
+    -moz-transform: rotate( 23deg);
+    -ms-transform: rotate( 23deg);
+    -o-transform: rotate( 23deg);
+    animation-name: Keyboard;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+.container img:nth-child(6) {
+    position: absolute;
+    top: 9px;
+    left: 102px;
+    width: 131px;
+    height: 90px;
+    transform: rotate( 31deg);
+    -webkit-transform: rotate( 43deg);
+    -moz-transform: rotate( 23deg);
+    -ms-transform: rotate( 23deg);
+    -o-transform: rotate( 23deg);
+    z-index: -1;
+    animation-name: CupMoving;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+.container img:nth-child(7) {
+    position: absolute;
+    top: 9px;
+    left: 283px;
+    width: 131px;
+    height: 90px;
+    transform: rotate( 99deg);
+    -webkit-transform: rotate( -13deg);
+    -moz-transform: rotate( 31deg);
+    -ms-transform: rotate( 31deg);
+    -o-transform: rotate( 31deg);
+    z-index: -1;
+    animation-name: CupMoving;
+    animation-duration: 1s;
+    animation-delay: 0.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+.shadow1 {
+    width: 76px;
+    height: 19px;
+    background-color: #00000033;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 2px 1px 33px 31px #00000033;
+    position: absolute;
+    top: 277px;
+    left: 82px;
+}
+
+.shadow2 {
+    width: 39px;
+    height: 27px;
+    background-color: #00000033;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 2px 1px 33px 31px #00000033;
+    position: absolute;
+    top: 244px;
+    left: 221px;
+    z-index: -1;
+}
+
+.shadow3 {
+    width: 19px;
+    height: 14px;
+    background-color: #00000033;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 2px 1px 33px 31px #00000033;
+    position: absolute;
+    top: 247px;
+    left: 356px;
+    z-index: -1;
+}
+
+.mail {
+    top: 83px;
+    left: 169px;
+    width: 168px;
+    height: 104px;
+    position: absolute;
+}
+
+.main-title {
+    position: absolute;
+    top: 156px;
+    left: 205px;
+    font-size: 12px;
+    color: #e8d9d9;
+}
+
+.secind-title {
+    transform: rotate( 9deg);
+    z-index: 1;
+    position: absolute;
+    top: 167px;
+    left: 370px;
+    font-size: 11px;
+    color: #4a4848;
+}
+
+.responsive {
+    top: 83px;
+    left: 200px;
+    width: 168px;
+    height: 104px;
+    position: absolute;
+    z-index: 2;
+    top: 158px;
+    left: 324px;
+    width: 32px;
+    height: 55px;
+    position: absolute;
+    z-index: 2;
+    transform: rotate( -24deg);
+    border-radius: 3px;
+}
+
+.responsive2 {
+    top: 123px;
+    left: 385px;
+    width: 48px;
+    height: 52px;
+    position: absolute;
+    z-index: 1;
+    transform: rotate( -24deg);
+    border-radius: 50%;
+    -webkit-transform: rotate( 9deg);
+    -moz-transform: rotate( -24deg);
+    -ms-transform: rotate( -24deg);
+    -o-transform: rotate( -24deg);
+}
+
+.responsive3 {
+    top: 138px;
+    left: 59px;
+    width: 129px;
+    height: 87px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 3px;
+    transform: rotate( -25deg);
+}
+
+.third-title-1,
+.third-title-2 {
+    position: absolute;
+    color: #bbb6b6
+}
+
+.third-title-1 {
+    left: 90px;
+    top: 216px;
+    transform: rotate( -25deg);
+    -webkit-transform: rotate( -25deg);
+    -moz-transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
+    -o-transform: rotate(-25deg);
+    z-index: 1;
+    font-size: 11px;
+}
+
+.third-title-2 {
+    left: 153px;
+    top: 181px;
+    transform: rotate( -25deg);
+    -webkit-transform: rotate( -25deg);
+    -moz-transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
+    -o-transform: rotate(-25deg);
+    z-index: 1;
+    font-size: 11px;
+}
+
+
+/* Animotion */
+
+@keyframes MovingMouse {
+    from {
+        top: 195px;
+    }
+    to {
+        top: 200px;
+    }
+}
+
+@keyframes Keyboard {
+    from {
+        top: 191px;
+    }
+    to {
+        top: 196px;
+    }
+}
+
+@keyframes CupMoving {
+    from {
+        top: 9px;
+    }
+    to {
+        top: 14px;
+    }
+}
