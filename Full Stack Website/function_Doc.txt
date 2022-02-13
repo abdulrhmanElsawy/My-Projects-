@@ -1,0 +1,5 @@
+=====================
+==Function Documnet==
+=====================
+
+getAllFrom($field, $table, $where = null, $and = null, $orderfiled, $ordering = 'DESC')
