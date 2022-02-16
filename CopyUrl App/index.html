@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copy Url App</title>
+
+    <!-- Styles -->
+    <link rel="stryeSheet" href="css/normalize.css">
+    <link rel="stryeSheet" href="css/all.min.css">
+    <link rel="styleSheet" href="css/front.css">
+
+    <!-- FontAwesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+
+</head>
+
+
+<body>
+    <div class="url-container">
+
+        <div class="top">
+            <h1>Share document</h1>
+            <form>
+                <input value="https://fontawesome.com/icons/" id="input" type="text"><button onclick="copyToClipboard('#input')">Copy Link</button>
+            </form>
+        </div>
+
+        <div class="bottom">
+            <h2>Permission</h2>
+            <div>
+                <i class="fa-solid fa-key"></i>
+                <h4>Restricted</h4>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <p>Only people you add can open the link</p>
+            <a href="#">send feedback</a>
+        </div>
+
+
+    </div>
+    <script src="js/jquery-1.12.1.min.js" defer></script>
+
+    <script src="js/front.js" defer></script>
+</body>
+
+</html>
