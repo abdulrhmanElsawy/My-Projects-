@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Tahoma, 'Segoe UI', Geneva, Verdana, sans-serif;
+    background-color: #1a2036;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Start Page Styling */
+
+.group-container {
+    background-color: #242b42;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 670px;
+    padding: 17px;
+    height: 500px;
+    gap: 30px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 94%;
+    width: 14%;
+    background-color: #1a2036;
+    gap: 49px;
+    border-radius: 10px;
+    color: #eee;
+    box-shadow: 0px 0px 16px -14px rgba(0, 0, 0, 1);
+}
+
+.left a {
+    color: #9a9a9a;
+    cursor: pointer;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.left a:hover {
+    color: #9a9a9a;
+    background-color: #242b42;
+    padding: 11px;
+    border-radius: 10px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.header {
+    color: rgb(189, 189, 189);
+    font-size: 19px;
+    margin-bottom: 54px;
+    position: relative;
+}
+
+.header div:nth-child(1) {
+    float: left;
+}
+
+.header div:nth-child(2) {
+    float: right;
+}
+
+.header a {
+    color: #706f6f;
+    margin-right: 21px;
+    background-color: #1a2036;
+    padding: 7px 12px 6px 12px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.body div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a2036;
+    border-radius: 10px;
+    color: rgb(194, 194, 194);
+    padding: 12px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    min-height: 120px;
+    font-size: 13px;
+    min-width: 127px;
+    box-shadow: 0px 0px 16px -14px rgba(0, 0, 0, 1);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.body div:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.body div:nth-child(1) {
+    background-color: #2e3650;
+    cursor: pointer;
+}
+
+.body div:nth-child(1) i {
+    font-size: 18px;
+    background-color: #242b42;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+h3 {
+    font-size: 12px;
+}
+
+
+/* End Page Styling */
