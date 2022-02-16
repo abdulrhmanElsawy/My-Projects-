@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #131730;
+}
+
+.progress-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.left {
+    background-color: #1b2042;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 460px;
+    padding: 15px 30px 15px 30px;
+    margin-right: 135px;
+    color: #eee;
+}
+
+.left h1 {
+    color: #fff;
+    font-size: 18px;
+}
+
+.left span {
+    width: 46px;
+    height: 8px;
+    background-color: transparent;
+    display: inline-block;
+    border: 1px solid #131730;
+    margin-right: 5px;
+    border-radius: 20px;
+}
+
+.left span.active {
+    width: 46px;
+    height: 8px;
+    background-color: #4abef3;
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 20px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.left h5 {
+    font-size: 12px;
+}
+
+.right .internal {
+    position: relative;
+}
+
+.right .internal .back {
+    position: absolute;
+    width: 154px;
+    height: 189px;
+    background-color: #4aa2f7;
+    z-index: -1;
+    border-radius: 10px;
+    left: -30px;
+    top: -25px;
+}
+
+.list {
+    background: #1b2042;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 13px;
+}
+
+h2 {
+    color: #fff;
+    font-size: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form div {
+    margin-bottom: 14px;
+}
+
+form div label {
+    color: #eee;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+form div input {
+    cursor: pointer;
+}
+
+.right {
+    margin-top: 184px;
+}
